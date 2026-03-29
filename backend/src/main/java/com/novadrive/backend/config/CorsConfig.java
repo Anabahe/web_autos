@@ -22,7 +22,7 @@ public class CorsConfig {
         // Orígenes permitidos (frontend Angular en localhost y Vercel)
         config.setAllowedOriginPatterns(List.of(
             "http://localhost:4200",
-            "https://*.vercel.app"
+            "https://web-autos-lemon.vercel.app"
         ));
 
         // Métodos HTTP permitidos

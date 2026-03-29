@@ -13,6 +13,7 @@ export const API_CONFIG = {
     /**
      * Obtiene la URL base de la API según el entorno
      */
+    
     getBaseUrl(): string {
         return this.useProduction ? this.productionUrl : this.developmentUrl;
     }
