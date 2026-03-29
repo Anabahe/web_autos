@@ -25,10 +25,19 @@ export const API_CONFIG = {
  */
 
 
+/**
+ * Configuración global de la API para NovaDrive
+ */
 export const API_CONFIG = {
-    // Eliminamos la lógica de "useProduction" y dejamos la de Railway como única opción
+
+    useProduction: true,
+
+    // URL de la API en Railway
     productionUrl: 'https://webautos-production.up.railway.app',
 
+    /* 
+     * Obtiene la URL base de la API
+     */
     getBaseUrl(): string {
         return this.productionUrl;
     }
