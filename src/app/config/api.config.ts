@@ -9,7 +9,7 @@ export const API_CONFIG = {
     useProduction: true,
 
     // URLs de la API
-    developmentUrl: 'http://localhost:8081',
+    //developmentUrl: 'http://localhost:8081',
     productionUrl: 'https://webautos-production.up.railway.app',
 
     /**
@@ -33,7 +33,7 @@ export const API_CONFIG = {
     useProduction: true,
 
     // URL de la API en Railway
-    productionUrl: 'https://webautos-production.up.railway.app',
+    productionUrl: 'https://webautos-production.up.railway.app/',
 
     /* 
      * Obtiene la URL base de la API
