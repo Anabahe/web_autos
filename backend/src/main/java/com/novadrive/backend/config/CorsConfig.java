@@ -19,9 +19,9 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
 
+
         // Orígenes permitidos (frontend Angular en localhost y Vercel)
         config.setAllowedOriginPatterns(List.of(
-            "https://web-autos-lemon.vercel.app/",
             "https://web-autos-lemon.vercel.app"
         ));
 
